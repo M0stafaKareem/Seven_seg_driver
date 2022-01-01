@@ -34,7 +34,7 @@ DIO_u8SetPinValue(Copy_u8Port, Copy_u8Pin, pinHigh);
 }
 
 void Seg_vidSetAllSegments(u8 Copy_u8Port, u8 Copy_u8PortValue){
-DIO_u8SetPinValue(Copy_u8Port, Copy_u8PortValue);
+DIO_u8SetPortValue(Copy_u8Port, Copy_u8PortValue);
 }
 
 void Seg_vidClrSegment(u8 Copy_u8Port, u8 Copy_u8Pin){
