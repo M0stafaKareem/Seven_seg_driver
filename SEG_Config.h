@@ -1,8 +1,6 @@
 #ifndef SEG_CONFIG_H
 #define SEG_CONFIG_H
 
-#define SEG_PORT portC
-
 #define PIN_A 	pin0__
 #define PIN_B 	pin1__
 #define PIN_C 	pin2__
